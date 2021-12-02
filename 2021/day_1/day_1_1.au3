@@ -1,4 +1,4 @@
-$if = "G:\C\Documents\Fichiers\Scripts\adventofcode\2021\day_1\input.txt"
+$if = "G:\C\Documents\Fichiers\Scripts\adventofcode\2021\day_1\input_1.txt"
 $ia = FileReadToArray($if)
 $ic = @extended ;Compteur du nombre de lignes
 $ip = $ia[0] ;Initialisation de la mesure référente avec la première ligne
