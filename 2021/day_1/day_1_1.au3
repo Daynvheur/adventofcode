@@ -11,5 +11,5 @@ For $i = 1 To $ic - 1 ;Parcours de toutes les lignes à partir de la deuxième (la
 	EndIf
 	$ip = $iq
 Next
-ConsoleWrite($increments & @CRLF) ;1713 (Attention au typage squi compare des chaînes de caractères !!! "10" < "9")
+ConsoleWrite($increments & @CRLF) ;1713 (Attention au typage qui compare des chaînes de caractères !!! "10" < "9")
 ConsoleWrite("Timer : " & TimerDiff($timer) & @CRLF)
